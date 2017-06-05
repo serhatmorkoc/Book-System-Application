@@ -254,6 +254,32 @@ namespace Web.Api.Controllers
             return response.ToHttpResponse();
         }
 
+        [Route("refund")]
+        public async Task<IActionResult> BookRefund(int bookId, string userEmail)
+        {
+            var response = new SingleModelResponse<ReserveResultModel>() as ISingleModelResponse<ReserveResultModel>;
+            try
+            {
+                var book = await _bookService.GetBookByIdAsync(bookId);
+                var user = await _userService.GetUserByEmailAsync(userEmail);
+
+                 //TODO
+
+                response.HasError = true;
+                response.Model = new ReserveResultModel() { Result = "Unsuccessful" };
+                response.ErrorMessage = "No stock for this book";
+
+                _logger.Warning(MessageTemplate, ProtocolName(), RequestMethod(), TraceIdentifierName(), LoggingEvents.GET_ITEM_NOTFOUND, "BOOK NOT RETURNED", RequestPath(), RequestPathString());
+            }
+            catch (Exception ex)
+            {
+                response.HasError = true;
+                response.ErrorMessage = ex.Message;
+            }
+
+            return response.ToHttpResponse();
+        }
+
         [Route("category/list")]
         public async Task<IActionResult> GetCategories()
         {

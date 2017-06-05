@@ -104,6 +104,32 @@ namespace Web.UI.Controllers
             return RedirectToAction("List");
         }
 
+        [HttpPost, Route("/book/refund/")]
+        public IActionResult Refund(int bookId, string userEmail)
+        {
+            //TODO
+
+            //api: books/reserve?userid=1&userEmail=1
+            var client = new RestClient(ApiBaseUrl + "books/refund?bookid=" + bookId + "&useremail=" + userEmail);
+            var req = new RestRequest
+            {
+                Method = Method.GET,
+                Timeout = 5000,
+                ReadWriteTimeout = 5000,
+
+            };
+
+            client.Authenticator = new HttpBasicAuthenticator(UserName, Password);
+            var result = GetResponseSingleAsync<ReserveResultModel>(client, req);
+
+            if (result.HasError)
+                ErrorNotification(result.ErrorMessage);
+            else
+                SuccessNotification(result.Model.Result);
+
+            return RedirectToAction("List");
+        }
+
         public ActionResult HomepageCategories()
         {
             // api: books/category/list/

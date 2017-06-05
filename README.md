@@ -5,7 +5,7 @@
 - Ioc Container : Microsoft Dependency Injection Pattern
 - Asp.NET Core
 - Entity Framework Code First
-- Database : MSSQL - SQL Server 2017
+- Database : (localdb)MSSQL - SQL Server 2017
 - Web Interface : Bootstrap
 
 

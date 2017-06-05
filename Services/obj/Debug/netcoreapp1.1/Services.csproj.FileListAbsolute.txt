@@ -1,0 +1,11 @@
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Services.deps.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Services.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Services.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\obj\Debug\netcoreapp1.1\Services.csprojResolveAssemblyReference.cache
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\obj\Debug\netcoreapp1.1\Services.AssemblyInfo.cs
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\obj\Debug\netcoreapp1.1\Services.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\obj\Debug\netcoreapp1.1\Services.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Core.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Data.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Core.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Services\bin\Debug\netcoreapp1.1\Data.pdb

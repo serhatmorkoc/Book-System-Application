@@ -1,0 +1,13 @@
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Web.UI.deps.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Web.UI.runtimeconfig.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Web.UI.runtimeconfig.dev.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Web.UI.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\obj\Debug\netcoreapp1.1\Web.UI.csprojResolveAssemblyReference.cache
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\obj\Debug\netcoreapp1.1\Web.UI.AssemblyInfo.cs
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Web.UI.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\obj\Debug\netcoreapp1.1\Web.UI.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\obj\Debug\netcoreapp1.1\Web.UI.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Core.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Core.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Data.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.UI\bin\Debug\netcoreapp1.1\Data.pdb

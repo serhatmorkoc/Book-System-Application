@@ -1,0 +1,62 @@
+@model Data.Models.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row-fluid">
+
+    <div class="span12">
+        <br>
+
+        <div class="row-fluid">
+            <div class="span12">
+                <h2>Login</h2>
+                <p>You must log in to rent a book or to see the book list.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row-fluid">
+            <div class="span8 pull-right">
+                <h2>Already have an account?</h2>
+                @using (Html.BeginForm())
+                {
+
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label">Username</label>
+                            <div class="controls">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = "Enter your Email", @class = "input-xlarge focused" } })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">Password</label>
+                            <div class="controls">
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { placeholder = "Enter your password", @class = "input-xlarge" } })
+                            </div>
+                        </div>
+
+                        <input type="submit" id="register-button" class="btn btn-primary" value="Login Now" name="register-button" />
+                    </fieldset>
+                }
+                
+                <br/>
+                <p>demo user: emma.mccartney@domain.com</p>
+                <p>demo password: 123456</p>
+                
+                <hr/>
+                
+                <br />
+                <p>demo user: jesse.collins@domain.com</p>
+                <p>demo password: 123456</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>

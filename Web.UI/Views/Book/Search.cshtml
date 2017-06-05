@@ -1,0 +1,47 @@
+@using Core.Extension
+@using Data.Models.Books
+@using Core.Extension.Response
+
+@model ListModelResponse<BookListModel>
+    @{
+        ViewData["Title"] = "Search";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+
+<div class="row-fluid">
+
+    <div class="span12">
+        <h2>Search : @Model.Model.Count() book listings found</h2>
+        <table class="table table-striped">
+            <tbody>
+
+            @{
+                foreach (var i in Model.Model)
+                {
+                    <tr class="">
+                        <td>
+                            <span class="label label-warning">Full time</span>
+                        </td>
+                        <td>
+                            <strong><a asp-controller="Book" asp-action="Details" asp-route-bookId="@i.Id" asp-route-bookName="@i.Name.URLFriendly()">@i.Name</a></strong>
+                            <br>
+                            by <a href="#">@i.Publisher</a>
+                            <br>
+                            ISBN: @i.Isbn
+                        </td>
+                        <td>
+                            @i.Language - @i.CategoryModel.Name
+
+                        </td>
+                        <td> @i.AuthorModel.FirstName @i.AuthorModel.LastName</td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+
+     
+
+</div>

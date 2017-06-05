@@ -1,0 +1,71 @@
+﻿@model Data.Models.Books.BookModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row-fluid">
+
+    <div class="span8">
+
+        <div class="row-fluid">
+            <div class="span12">
+                <br>
+                <h1>@Model.Name</h1>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <span class="btn btn-success">Stock: @Model.Stock</span>
+                        <span class="">Publisher: @Model.Publisher</span>
+
+
+
+                        <a asp-controller="Book" asp-action="Index" class="pull-right"><span>←&nbsp;Back</span></a>
+                    </div>
+                </div>
+                <hr>
+                <p>Description;</p><br />
+                <p>Description; @Model.Description</p>
+                <hr>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    @using (Html.BeginForm("Reserve", "Book"))
+    {
+
+        @Html.Hidden("bookId", Model.Id)
+        @Html.Hidden("userEmail", User.Identity.Name)
+        
+
+    <div class="span4 ">
+        <br>
+        <div class="row-fluid">
+            <div class="span12">
+                <br>
+                <input type="submit" class="btn btn-primary btn-large post_job apply_now" value="Borrow  Now" />
+               
+            </div>
+
+            <div class="span12">
+                <br>
+                <ul class="nav nav-tabs nav-stacked">
+                    <li><a href="#">Publisher:  @Model.Publisher</a></li>
+                    <li><a href="#">ISBN:  @Model.Isbn</a></li>
+                    <li><a href="#">Hardcover:  @Model.Hardcover</a></li>
+                    <li><a href="#">Language:  @Model.Language</a></li>
+                    <li><a href="#">ProductDimensions:  @Model.ProductDimensions cm</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    }
+</div>
+

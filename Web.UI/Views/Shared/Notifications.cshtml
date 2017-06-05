@@ -1,0 +1,47 @@
+@using System.Collections.Generic
+@{
+    var successMessages = new List<string>();
+    if (TempData[string.Format("notifications.{0}", "Success")] != null)
+    {
+        successMessages.AddRange(TempData[string.Format("notifications.{0}", "Success")] as IList<string>);
+    }
+
+    var errorMessages = new List<string>();
+    if (TempData[string.Format("notifications.{0}", "Error")] != null)
+    {
+        errorMessages.AddRange(TempData[string.Format("notifications.{0}", "Error")] as IList<string>);
+    }
+
+    var warningMessages = new List<string>();
+    if (TempData[string.Format("notifications.{0}", "Warning")] != null)
+    {
+        warningMessages.AddRange(TempData[string.Format("notifications.{0}", "Warning")] as IList<string>);
+    }
+}
+
+@foreach (var message in successMessages)
+{
+    <br/>
+    <div class="alert alert-success alert-dismissable span8 pull-right">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        @message
+    </div>
+}
+
+@foreach (var message in errorMessages)
+{
+    <br />
+    <div class="alert alert-danger alert-dismissable span8 pull-right">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        @message
+    </div>
+}
+
+@foreach (var message in warningMessages)
+{
+    <br />
+    <div class="alert alert-warning alert-dismissable span8 pull-right">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        @message
+    </div>
+}

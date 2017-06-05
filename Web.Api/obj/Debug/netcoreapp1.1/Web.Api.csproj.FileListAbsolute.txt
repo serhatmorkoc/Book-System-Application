@@ -1,0 +1,15 @@
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Web.Api.deps.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Web.Api.runtimeconfig.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Web.Api.runtimeconfig.dev.json
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Web.Api.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Web.Api.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\obj\Debug\netcoreapp1.1\Web.Api.csprojResolveAssemblyReference.cache
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\obj\Debug\netcoreapp1.1\Web.Api.AssemblyInfo.cs
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\obj\Debug\netcoreapp1.1\Web.Api.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\obj\Debug\netcoreapp1.1\Web.Api.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Core.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Data.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Services.dll
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Core.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Data.pdb
+C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Web.Api\bin\Debug\netcoreapp1.1\Services.pdb

@@ -1,0 +1,44 @@
+@model Core.Extension.Response.ListModelResponse<Data.Models.Categories.CategoryModel>
+@{
+
+    Layout = "";
+}
+
+
+
+
+<div class="row-fluid search_banner">
+    <br>
+    <div class="span12">
+        <div class="row-fluid">
+            <div class="span5">
+                <h3>I'm looking for...</h3>
+            </div>
+            <div class="span4">
+                <h3>Books Genre</h3>
+            </div>
+        </div>
+
+        @using (Html.BeginForm("Search", "Book"))
+        {
+            <div class="row-fluid">
+
+                <div class="span5">
+                    <input type="text" class="span12" placeholder="What type of book are you looking for?" name="name">
+                </div>
+
+                <div class="span4">
+                    @Html.DropDownList("categoryId", new SelectList(Model.Model, "Id", "Name"), new { @class = "span12" })
+                </div>
+
+                <div class="span1 browse_search">
+                    <input type="submit" class="btn btn-primary btn-large btn-success" value="Search"  />
+                </div>
+            </div>
+        }
+
+
+        <br>
+    </div>
+
+</div>

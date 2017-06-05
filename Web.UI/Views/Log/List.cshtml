@@ -1,0 +1,78 @@
+@using Data.Models.Logging
+@using Core.Extension.Response
+
+@model ListModelResponse<LogListModel>
+
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row-fluid">
+
+    <div class="span12">
+        <h2>@Model.Model.Count() log listings found</h2>
+        <table class="table table-condensed table-hover  table-bordered">
+
+            <thead>
+                <tr class="success">
+                    <th>TimeStamp</th>
+                    <th>
+                        {HTTP/1.1} {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms
+
+
+                    </th>
+
+                    <th>Level</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @{
+                    foreach (var i in Model.Model)
+                    {
+                        var cssClass = "";
+
+                        if (i.Level == "Error")
+                        {
+                            cssClass = "error";
+                        }
+                        if (i.Level == "Warning")
+                        {
+                            cssClass = "warning";
+                        }
+                        if (i.Level == "Information")
+                        {
+                            cssClass = "info";
+                        }
+
+                        <tr class="@cssClass">
+                            <td>
+                                @i.TimeStamp
+                            </td>
+                            <td>
+                                @i.Message
+                            </td>
+                            <td>
+                                @i.Level
+                            </td>
+                        </tr>
+
+
+
+                    }
+                }
+
+
+
+            </tbody>
+        </table>
+
+
+
+    </div>
+
+
+
+</div>

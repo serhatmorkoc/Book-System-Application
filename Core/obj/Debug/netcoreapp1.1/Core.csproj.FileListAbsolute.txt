@@ -5,3 +5,10 @@ C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Core\o
 C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.AssemblyInfo.cs
 C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.dll
 C:\Users\Kael\Documents\Visual Studio 2017\Projects\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.pdb
+C:\Github\BookSystemApplication\Core\bin\Debug\netcoreapp1.1\Core.deps.json
+C:\Github\BookSystemApplication\Core\bin\Debug\netcoreapp1.1\Core.dll
+C:\Github\BookSystemApplication\Core\bin\Debug\netcoreapp1.1\Core.pdb
+C:\Github\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.csprojResolveAssemblyReference.cache
+C:\Github\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.AssemblyInfo.cs
+C:\Github\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.dll
+C:\Github\BookSystemApplication\Core\obj\Debug\netcoreapp1.1\Core.pdb

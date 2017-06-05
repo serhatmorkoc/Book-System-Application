@@ -8962,10 +8962,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Github\\BookSystemApplication\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj",
-      "outputPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\obj\\",
+      "projectPath": "C:\\Github\\BookSystemApplication\\Data\\Data.csproj",
+      "outputPath": "C:\\Github\\BookSystemApplication\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8973,8 +8973,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj"
+            "C:\\Github\\BookSystemApplication\\Core\\Core.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Core\\Core.csproj"
             }
           }
         }

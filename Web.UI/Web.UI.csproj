@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\lib\bootstrap\**" />
+    <Content Remove="wwwroot\lib\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\lib\bootstrap\**" />
+    <None Remove="wwwroot\lib\bootstrap\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="wwwroot\css\booksystem.css" />
   </ItemGroup>
   <ItemGroup>

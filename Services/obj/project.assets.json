@@ -8976,10 +8976,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Github\\BookSystemApplication\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Services\\Services.csproj",
-      "outputPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Services\\obj\\",
+      "projectPath": "C:\\Github\\BookSystemApplication\\Services\\Services.csproj",
+      "outputPath": "C:\\Github\\BookSystemApplication\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8987,11 +8987,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj"
+            "C:\\Github\\BookSystemApplication\\Data\\Data.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Data\\Data.csproj"
             },
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj"
+            "C:\\Github\\BookSystemApplication\\Core\\Core.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Core\\Core.csproj"
             }
           }
         }

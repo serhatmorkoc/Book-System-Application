@@ -10966,10 +10966,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Web.Api\\Web.Api.csproj",
+      "projectUniqueName": "C:\\Github\\BookSystemApplication\\Web.Api\\Web.Api.csproj",
       "projectName": "Web.Api",
-      "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Web.Api\\Web.Api.csproj",
-      "outputPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Web.Api\\obj\\",
+      "projectPath": "C:\\Github\\BookSystemApplication\\Web.Api\\Web.Api.csproj",
+      "outputPath": "C:\\Github\\BookSystemApplication\\Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10977,14 +10977,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Data\\Data.csproj"
+            "C:\\Github\\BookSystemApplication\\Data\\Data.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Data\\Data.csproj"
             },
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Services\\Services.csproj"
+            "C:\\Github\\BookSystemApplication\\Services\\Services.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Services\\Services.csproj"
             },
-            "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Kael\\Documents\\Visual Studio 2017\\Projects\\BookSystemApplication\\Core\\Core.csproj"
+            "C:\\Github\\BookSystemApplication\\Core\\Core.csproj": {
+              "projectPath": "C:\\Github\\BookSystemApplication\\Core\\Core.csproj"
             }
           }
         }

@@ -7,6 +7,7 @@
 - Entity Framework Code First
 - Database : (localdb)MSSQL - SQL Server 2017
 - Web Interface : Bootstrap
+- Api Auth : Header Basic Authentication
 
 
 syntax=c#
